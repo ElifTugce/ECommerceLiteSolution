@@ -8,7 +8,7 @@ namespace ECommerceLiteUI.Controllers
 {
     [Authorize(Roles ="Admin")]
     public class AdminController : BaseController
-    {3
+    {
         //Global Alan
         //Repoları çağıralım
         OrderRepo myOrderRepo = new OrderRepo();
